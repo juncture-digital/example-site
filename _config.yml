@@ -1,16 +1,16 @@
-title: Website Title
+title: Juncture Website Example
 
-description: Website Description (goes in footer).
+description: Powered by [Juncture](https://juncture-digital.io).
 
 author:
   name: Site owner name
   email: site_owner@some_domain.com
 
-#github:
-  #owner_name: gh-owner
-  #repository_name: gh-repo
-  #source:
-    #branch: main
+github:
+  owner_name: juncture-digital
+  repository_name: example-site
+  source:
+    branch: main
 
 nav_pages:
   - index.md
