@@ -73,12 +73,14 @@ layout: base
 </article>
 
 <script>
+  let maxWidth = '{{ page.max-width }}';
   let pageData = {
     owner:  '{{site.github.owner_name}}',
     repo:   '{{site.github.repository_name}}',
     branch: '{{site.github.source.branch}}',
     path:   '{{ page.path }}'
   }
+  let imageServiceUrl = 'https://d1co2zgwaj21sl.cloudfront.net/image';
   document.querySelectorAll('.post-image').forEach((el) => {
     if (el.dataset?.src) {
       if (el.dataset?.src.startsWith('wc:') || el.dataset?.src.startsWith('http')) {
