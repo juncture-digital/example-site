@@ -133,7 +133,7 @@
 
           </div>
           <div class="footer-col">
-            <p>{{ site.description | escape }}</p>
+            {{ site.description | markdownify }}
 
             {%- if site.show_github_link %}
               <p class="github-link">
